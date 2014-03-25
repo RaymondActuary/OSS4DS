@@ -4,17 +4,17 @@ body, h1, h2, h3, h4 {
 }
 
 body {
-  background-color: rgb(43, 194, 227);
+  background-color: rgb(255, 78, 0);
   font-size: 170%;
 }
 
 a {
-  color: rgb(43, 194, 227);
+  color: rgb(255, 78, 0);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(43, 194, 227);
+  color: rgb(255, 78, 0);
 }
 
 #intro h2, #screenshots h2 {
@@ -43,13 +43,17 @@ a:hover {
 
 #banner .tagline {
   font-size: 22px;
-  color: rgb(43, 194, 227);
+  color: rgb(255, 78, 0);
   text-align: center;
 }
 
 #banner a {
   text-decoration: none;
   border: 0;
+}
+
+#banner .logo-text {
+  font-size: 550%;
 }
 
 @media (min-width: 992px) {
@@ -103,19 +107,6 @@ nav a:hover {
   z-index: 1;
 }
 
-#overview {
-  color: white;
-  margin: 2em 0;
-}
-
-#overview .card {
-  text-align: center;
-}
-
-#overview .card img {
-  margin-bottom: 1em;
-}
-
 footer {
   padding: 2em 0;
   color: black;
@@ -124,16 +115,6 @@ footer {
 
 footer .social {
   text-align: right;
-}
-
-#screenshots {
-  background-color: #DDD;
-  color: rgb(31, 42, 97);
-}
-
-#screenshots .video {
-  text-align: center;
-  padding-bottom: 1em;
 }
 
 #blog {
@@ -165,7 +146,7 @@ footer .social {
 }
 
 .post .title a:hover {
-  color: rgb(43, 194, 227);
+  color: rgb(255, 78, 0);
 }
 
 .post .meta {

@@ -8,8 +8,6 @@ We recently submitted an abstract to give a presentation on **Lumify** at the **
 
 The process of selecting presentations for the Hadoop Summit includes a public voting period. We'll let you know when that vote is open for you to show your support for Lumify.
 
-[![Olympic Rings]({{site.url}}/assets/2014-02-17-hadoop-summit-presentation-abstract/hadoop_summit_logo.png "Hadoop Summit logo")](http://hadoopsummit.org/san-jose/)
-
 **Proposed Session Title:** _Lumify: open source big data analysis and visualization_
 
 **Session Track:** _Hadoop for Business Applications and Development_

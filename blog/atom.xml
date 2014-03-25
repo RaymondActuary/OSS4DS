@@ -10,7 +10,7 @@ layout: nil
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.full_url }}/blog/</id>
   <author>
-    <name>Lumify Dev Team</name>
+    <name>OSS4DS</name>
   </author>
 
   {% assign post_count = '' %}
