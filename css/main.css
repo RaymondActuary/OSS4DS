@@ -23,7 +23,7 @@ a:hover {
 }
 
 #intro a, #intro a:hover {
-  color: rgb(247, 245, 118);
+  color: #265F92;
 }
 
 /* banner
@@ -105,6 +105,19 @@ nav a:hover {
   right: 0;
   border: 0;
   z-index: 1;
+}
+
+#overview {
+  background-color: #DDD;
+  color: rgb(31, 42, 97);
+}
+
+#overview .card {
+  text-align: center;
+}
+
+#overview .card img {
+  margin-bottom: 1em;
 }
 
 footer {

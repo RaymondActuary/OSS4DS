@@ -4,7 +4,7 @@
     <li><a href="{{root_url}}/what-is-data-science.html">What is Data Science?</a></li>
     <li><a href="{{root_url}}/why-oss.html">Why OSS?</a></li>
     {% capture post_count %}{{ site.posts | size }}{% endcapture %}
-    {% if post_count == "0" %}{% else %}<li><a href="/blog">Catalog of Tools</a></li>{% endif %}
+    {% if post_count == "0" %}{% else %}<li><a href="{{root_url}}/blog">Catalog of Tools</a></li>{% endif %}
     <li><a href="/">Contribute</a></li>
   </ul>
 </nav>
