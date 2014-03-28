@@ -1,0 +1,23 @@
+---
+layout: post
+title: "D3.js"
+author: Charlie Greenbacker
+categories: data-visualization
+---
+D3.js (Data Driven Documents) is a JavaScript library for interactive data visualization based on HTML, SVG, and CSS. It was started in 2010 by Mike Bostock, along with Jeff Heer and Vadim Ogievetsky, inspired by their previous work on the Protovis library at the Stanford Visualization Group.
+
+[<img style="float: right" src="{{ site.url }}/img/D3.png" />](http://d3js.org/)
+
+__Creator:__ [Mike Bostock](http://bost.ocks.org/mike/)
+
+__License:__ [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause)
+
+__Website:__ [d3js.org](http://d3js.org/)
+
+__Source:__ [github.com/mbostock/d3](https://github.com/mbostock/d3)
+
+__Features:__
+
+* Binds data to DOM and enables complex transformations
+* ~200 examples are available on the D3.js website, including: force-directed graphs, choropleths, treemaps, dendrograms, animations, etc.
+

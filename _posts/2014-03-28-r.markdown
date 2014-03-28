@@ -1,0 +1,22 @@
+---
+layout: post
+title: "R"
+author: Charlie Greenbacker
+categories: statistical-analysis data-visualization
+---
+R is the leading open source programming language and computing environment for statistical computing and visualization. It was started in 1997 by Robert Gentleman and Ross Ihaka from the Statistics Dept at the University of Auckland in New Zealand.
+
+[<img style="float: right" src="{{ site.url }}/img/Rlogo-4.png" />](http://www.r-project.org/)
+
+__Creator:__ Gentleman & Ihaka
+
+__License:__ [GPL Version 2](http://opensource.org/licenses/GPL-2.0)
+
+__Website:__ [r-project.org](http://www.r-project.org/)
+
+__Source:__ [cran.us.r-project.org/src/base/](http://cran.us.r-project.org/src/base/)
+
+__Features:__
+
+* Supports ninear and nonlinear modeling, classical statistical tests, time-series analysis, graphical techniques, and more
+* Over 5000 packages for R are available in the [CRAN repository](http://cran.us.r-project.org/)

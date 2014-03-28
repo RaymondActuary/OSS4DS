@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Pandas"
+author: Charlie Greenbacker
+categories: data-mining statistical-analysis
+---
+Pandas is a data analysis library providing high-performance, easy-to-use data structures, and data analysis tools for Python. It was started by Wes McKinney in 2008 while working at AQR Capital Management (a hedge fund).
+
+[<img style="float: right" src="{{ site.url }}/img/pandas_logo.png" />](http://pandas.pydata.org/)
+
+__Creator:__ [Wes McKinney](http://blog.wesmckinney.com/)
+
+__License:__ [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause)
+
+__Website:__ [pandas.pydata.org](http://pandas.pydata.org/)
+
+__Source:__ [github.com/pydata/pandas](https://github.com/pydata/pandas)
+
+__Features:__
+
+* Provides a DataFrame object for fast manipulation & indexing of data
+* Includes tools for reading & writing data between formats
+* Supports label-based slicing, indexing, and subsetting of data
+

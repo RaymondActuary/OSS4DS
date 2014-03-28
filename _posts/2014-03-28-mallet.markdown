@@ -1,0 +1,22 @@
+---
+layout: post
+title: "MALLET"
+author: Charlie Greenbacker
+categories: machine-learning natural-language-processing
+---
+MALLET is a Java-based Machine Learning for Language Toolkit. It was originally written in 2002 by Andrew McCallum, and now includes contributions from David Mimno, Fernando Pereira, Ryan McDonald, and more.
+
+[<img style="float: right" src="{{ site.url }}/img/mallet-logo3.png" />](http://mallet.cs.umass.edu/)
+
+__Creator:__ [UMass Amherst](https://www.cs.umass.edu/)
+
+__License:__ [Common Public License 1.0](http://opensource.org/licenses/cpl1.0.php)
+
+__Website:__ [mallet.cs.umass.edu](http://mallet.cs.umass.edu/)
+
+__Source:__ [hg-iesl.cs.umass.edu/hg/mallet](http://hg-iesl.cs.umass.edu/hg/mallet)
+
+__Features:__
+
+* Includes support for Document classification, clustering, topic modeling, information extraction & sequence tagging, and more
+* Features an efficient implementation of Latent Dirichlet Allocation (LDA) for topic modeling

@@ -1,0 +1,22 @@
+---
+layout: post
+title: "NetworkX"
+author: Charlie Greenbacker
+categories: social-network-analysis data-visualization
+---
+NetworkX provides structures for graphs, digraphs, and multigraphs in Python. It was started in 2002 by Aric Hagberg, Dan Schult, and Pieter Swart at Los Alamos National Lab.
+
+[<img style="float: right" src="{{ site.url }}/img/NetworkX.png" />](http://networkx.github.io/)
+
+__Creator:__ [Los Alamos National Lab](https://www.lanl.gov/)
+
+__License:__ [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause)
+
+__Website:__ [networkx.github.io](http://networkx.github.io/)
+
+__Source:__ [github.com/networkx/networkx](https://github.com/networkx/networkx)
+
+__Features:__
+
+* Support for creating, manipulating, and analyzing the structure, dynamics, and functions of complex networks
+* Provides standard graph algorithms and analysis metrics

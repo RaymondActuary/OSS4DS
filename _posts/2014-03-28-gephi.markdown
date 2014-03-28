@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Gephi"
+author: Charlie Greenbacker
+categories: social-network-analysis data-visualization
+---
+Gephi is a network analysis and visualization package for Java created at the University of Technology of Compi&egrave;gne by Mathieu Bastian, Eduardo Ramos Iba&ntilde;ez, and others. The first release was in 2008, and it has been part of the Google Summer of Code program for the past 5 years.
+
+[<img style="float: right" src="{{ site.url }}/img/Gephi-logo.png" />](http://gephi.org/)
+
+__Creator:__ [UTC France](http://www.utc.fr/the_university/index.php)
+
+__License:__ [GPL Version 3](http://opensource.org/licenses/GPL-3.0)
+
+__Website:__ [gephi.org](http://gephi.org/)
+
+__Source:__ [github.com/gephi/gephi](https://github.com/gephi/gephi)
+
+__Features:__
+
+* Supports dynamic network analysis with temporal filtering
+* Metrics include: community detection, betweenness, closeness, clustering coefficient, PageRank, etc.
