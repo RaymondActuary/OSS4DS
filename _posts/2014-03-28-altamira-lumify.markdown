@@ -2,7 +2,7 @@
 layout: post
 title: "Lumify"
 author: Charlie Greenbacker
-categories: data-visualization
+categories: social-network-analysis data-visualization
 ---
 Lumify is an open source analysis and visualization platform for big data developed by engineers at Altamira. Started in 2012, it enables users to explore data, relationships, and patterns though a modern web interface.
 
