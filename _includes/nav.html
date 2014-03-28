@@ -1,7 +1,9 @@
 <nav>
   <ul>
-    <li><a href="https://github.com/altamiracorp/OSS4DS">Code</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="{{root_url}}/what-is-data-science.html">What is Data Science?</a></li>
+    <li><a href="{{root_url}}/about.html">Why OSS?</a></li>
     {% capture post_count %}{{ site.posts | size }}{% endcapture %}
-    {% if post_count == "0" %}{% else %}<li><a href="/blog">Blog</a></li>{% endif %}
+    {% if post_count == "0" %}{% else %}<li><a href="/blog">Catalog of Tools</a></li>{% endif %}
   </ul>
 </nav>
