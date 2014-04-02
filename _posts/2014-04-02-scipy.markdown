@@ -1,0 +1,23 @@
+---
+layout: post
+title: "SciPy"
+author: Charlie Greenbacker
+categories: statistical-analysis
+---
+The SciPy library (not to be confused with the related [SciPy software ecosystem](http://www.scipy.org/)) is a package of algorithms and functions core to Python's scientific computing capabilities. In 2001, a number of modules for scientific and technical computing were merged to become SciPy, providing a standard collection of numerical operations atop the Numeric array data structure.
+
+[<img style="float: right" src="{{ site.url }}/img/scipy_logo.png" />](http://www.scipy.org/scipylib/index.html)
+
+__Creator:__ Travis Oliphant, Eric Jones, and Pearu Peterson
+
+__License:__ [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause)
+
+__Website:__ [scipy.org/scipylib](http://www.scipy.org/scipylib/index.html)
+
+__Source:__ [github.com/scipy/scipy](https://github.com/scipy/scipy)
+
+__Features:__
+
+* Includes basic tools for working with constants, clustering data, input & output, dealing with sparse matrices, and statistical functions
+* Dozens of sub-packages provide advanced support for integration, optimization, interpolation, Fourier transforms, signal processing, linear algebra, eigenvalues, spatial data, multidimensional image processing, and more
+* A collection of code snippets, modules, and links for solving scientific problems with SciPy and related Python tools is available at [SciPy Central](http://scipy-central.org/)
