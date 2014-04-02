@@ -1,0 +1,22 @@
+---
+layout: post
+title: "NumPy"
+author: Charlie Greenbacker
+categories: statistical-analysis
+---
+NumPy is a fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices, and a large library of high-level mathematical functions. Created in 2005 by Travis Oliphant, it was based on two previous Python packages called Numeric and Numarray.
+
+[<img style="float: right" src="{{ site.url }}/img/numpy_logo.png" />](http://www.numpy.org/)
+
+__Creator:__ [Travis Oliphant](https://twitter.com/teoliphant)
+
+__License:__ [BSD 3-Clause License](http://opensource.org/licenses/BSD-3-Clause)
+
+__Website:__ [numpy.org](http://www.numpy.org/)
+
+__Source:__ [github.com/numpy/numpy](https://github.com/numpy/numpy)
+
+__Features:__
+
+* Contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, and tools for integrating C/C++ & Fortran code
+* Also includes useful capabilities for linear algebra, Fourier transforms, and working with random numbers
