@@ -1,0 +1,90 @@
+---
+layout: default
+title: OSS4DS - open source software for data scientists
+description: A site dedicated to delivering information about open source software for data scientists
+keywords: data science, open source, big data, analytics, visualization
+---
+<div id="blog" class="container">
+  <div class="post">
+	<h1 class="title">Become a Contributor</h1>
+	<div class="meta row">
+    <div class="byline col-md-6">
+      02 Apr 2014, written by Charlie Greenbacker
+    </div>
+    <div class="share col-md-6">
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="oss4ds">Tweet</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    </div>
+  </div>
+	  <div class="post-content">
+		  <p>The list of open source software on our <a href="{{root_url}}/blog">Catalog of Tools</a> page will always be incomplete. We plan to add more & more tools over time, but there's no way we will ever cover everything. However, to make the list as comprehensive as possible, <strong>we need your help!</strong> Have you used an OSS tool in your work as a data scientist, or are you working to develop such a tool? If so, tell the world about it here.</p>
+		  <p>The OSS4DS.com website is built using <a href="http://jekyllrb.com/">Jekyll</a> & <a href="http://getbootstrap.com/">Bootstrap</a>, and it's hosted on <a href="https://pages.github.com/">GitHub Pages</a>, making it incredibly easy for anyone to contribute new content. Basically, all you have to do to add new tools to our Catalog is write a little bit of <a href="https://daringfireball.net/projects/markdown/">Markdown</a> code and submit a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> via GitHub. Follow the steps below to set up a local development environment of your own to work on the website.</p>
+		  <h3>Getting Started: Fork the Code!</h3>
+		  <ol>
+		  <li>Register for a <a href="https://github.com/">GitHub</a> account (if you don't already have one)</li>
+		  <li>Visit the OSS4DS repository on GitHub: <a href="https://github.com/altamiracorp/OSS4DS">https://github.com/altamiracorp/OSS4DS</a></li>
+		  <li>Click on the <a href="https://github.com/altamiracorp/OSS4DS/fork">Fork</a> button to create your own copy of the OSS4DS repository in your GitHub account</li>
+		  </ol>
+		  <h3>Running the Site Locally</h3>
+		  <ol>
+		  <li>Install <a href="https://www.ruby-lang.org/">Ruby</a> (you'll need at least Ruby 1.9.3)</li>
+		  <li>Install <em>bundler</em> with the command: <code>gem install bundler</code></li>
+		  <li>Install <a href="http://git-scm.com/">Git</a> (if it's not already installed)</li>
+		  <li>Clone <strong>your fork</strong> of the OSS4DS code: <code>git clone https://github.com/YOUR-GITHUB-USERNAME/OSS4DS.git</code></li>
+		  <li>Move into the newly-created OSS4DS directory, e.g., <code>cd OSS4DS/</code></li>
+		  <li>Install the required Ruby gems for <em>Jekyll</em>, etc. using <em>bundler</em>: <code>bundle install</code></li>
+		  <li>Install <a href="http://pygments.org/">Pygments</a> for source code highlighting</li>
+		  <li>Use <em>Jekyll</em> to compile and serve the website locally: <code>bundle exec jekyll serve --watch</code><br />(the <code>--watch</code> flag tells Jekyll to watch for changes and re-generate the site automatically)</li>
+		  </ol>
+		  <p>Please note: It's import to use <code>bundle exec</code> when running any of the Jekyll commands to ensure the correct versions of all Ruby gems are used. Check the <a href="http://jekyllrb.com/docs/home/">Jekyll documentation</a> if you get stuck -- it's quite good.</p>
+		  <p>At this point, you should be able to open up your web browser and go to <a href="http://0.0.0.0:4000">http://0.0.0.0:4000</a> to view your local copy of the OSS4DS.com website running on your local machine. Here, you can preview any of the additions or changes you've made and refine them until they're ready to be contributed back to the public site.</p>
+		  <h3>Adding Tools to the Catalog</h3>
+		  <p>Our <a href="{{root_url}}/blog">Catalog of Tools</a> page is actually a blog powered by Jekyll. Adding new tools to the list is as easy as creating a new .markdown file in the <code>_posts</code> directory. You can work from the example files already in that directory, or you can use this handy-dandy template:</p>
+<pre><xmp>---
+layout: post
+title: "NAME OF TOOL"
+author: YOUR NAME
+categories: we'll-handle-this or-you-can-look-at-examples
+---
+Here, you'll write a brief introduction describing the tool and what it's used for. 2-3 sentences is sufficient.
+
+{% raw %}[<img style="float: right" src="{{ site.url }}/img/PATH_TO_LOGO.png" />](http://PROJECT-WEBSITE.io/){% endraw %}
+
+__Creator:__ [NAME OF CREATOR](http://CREATOR-WEBSITE.io/)
+
+__License:__ [OPEN SOURCE LICENSE](link to appropriate opensource.org license page)
+
+__Website:__ [PROJECT-WEBSITE.io](http://PROJECT-WEBSITE.io/)
+
+__Source:__ [github.com/CREATOR/PROJECT](https://github.com/CREATOR/PROJECT)
+
+__Features:__
+
+* List a few interesting features here
+* You'll want to include at least two
+* But three or four is better
+</xmp></pre>
+		  <p>For help with Markdown syntax, go here: <a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball: Markdown Syntax Documentation</a></p>
+		  <p>It's always best to include an image of the project logo in each post, so whenever possible, be sure to upload an appropriately-sized image file to the <code>img</code> directory and set the img path in the markdown code just below the tool description.</p>
+		  <p>Once your new .markdown file is saved in your <code>_posts</code> directory, you should be able to view it locally by going to <a href="http://0.0.0.0:4000/blog/">http://0.0.0.0:4000/blog/</a> and clicking on the name of your new tool in the big list.</p>
+		  <h3>Submitting a Pull Request</h3>
+		  <p>After you've verified your changes locally, submitting your contribution requires two simple steps. First, you'll commit your changes and push them to your fork of the OSS4DS code repository:</p>
+<pre lang="shell"><code>git add .
+git commit -m "useful message describing changes"
+git push origin gh-pages
+</code></pre>
+		  <p>Please note: if you get a "Page build failure" notification from GitHub at this point, that's ok -- just ignore it!</p>
+		  <p>Next, you'll create a pull request to have your change merged into the main OSS4DS.com website:</p>
+		  <ol>
+		  <li>Visit your fork on GitHub: <a href="https://github.com/YOUR-GITHUB-USERNAME/OSS4DS">https://github.com/YOUR-GITHUB-USERNAME/OSS4DS</a></li>
+		  <li>Click on the green "Compare & Review" button to go to: <a href="https://github.com/YOUR-GITHUB-USERNAME/OSS4DS/compare">https://github.com/YOUR-GITHUB-USERNAME/OSS4DS/compare</a></li>
+		  <li>Now, click on the green "Create Pull Request" button</li>
+		  <li>Finally, follow the on-screen instructions and click on "Send Pull Request"</li>
+		  </ol>
+		  <p>Detailed instructions for creating pull requests on GitHub can be found here: <a href="https://help.github.com/articles/creating-a-pull-request">Creating a pull request</a></p>
+		  <h3>That's It!</h3>
+		  <p>Your part is done. Now it's up to the OSS4DS.com team to review your contribution, make any modifications as appropriate, and merge your pull request into the main website.</p>
+		  <p>And there's no need to stop with adding new tools to the Catalog -- if you've got an idea for how to spruce up the site design, or a new static page you'd like to add (like this one), we'll consider pull requests of that sort as well!</p>
+	  </div>
+  </div>
+</div>
