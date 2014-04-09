@@ -32,9 +32,9 @@ a:hover {
 #banner {
   background-color: white;
   border-bottom: 0.3em solid #265F92;
-  -webkit-box-shadow: 0 8px 6px -6px #444;
-  -moz-box-shadow: 0 8px 6px -6px #444;
-  box-shadow: 0 8px 6px -6px #444;
+  -webkit-box-shadow: 0 6px 6px -6px #444;
+  -moz-box-shadow: 0 6px 6px -6px #444;
+  box-shadow: 0 6px 6px -6px #444;
 }
 
 #banner .container {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 #banner .tagline {
-  font-size: 52px;
+  font-size: 32px;
   color: #265F92;
   text-align: left;
 }
@@ -59,8 +59,8 @@ a:hover {
 @media (min-width: 992px) {
   #banner .tagline {
     display: table-cell;
-    height: 150px;
-    vertical-align: middle;
+    height: 120px;
+    vertical-align: bottom;
     text-align: left;
   }
 }
@@ -75,9 +75,9 @@ nav ul {
   background-color: #265F92;
   margin: 0;
   padding: 0 0 5px 0;
-  -webkit-box-shadow: 0 8px 6px -6px #444;
-  -moz-box-shadow: 0 8px 6px -6px #444;
-  box-shadow: 0 8px 6px -6px #444;
+  -webkit-box-shadow: 0 6px 6px -6px #444;
+  -moz-box-shadow: 0 6px 6px -6px #444;
+  box-shadow: 0 6px 6px -6px #444;
 }
 
 nav li {
@@ -96,7 +96,14 @@ nav a:hover {
 }
 
 #intro {
-  color: white;
+  color: #265F92;
+  background-color: #fff;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  padding: 0 2em 2em 2em;
+  -moz-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
 }
 
 .social-github img {
@@ -112,11 +119,14 @@ nav a:hover {
   color: #ddd;
 }
 
-#overview .card {
+#intro .card {
   text-align: center;
+  color: #fff;
+  background-color: #265F92;
 }
 
-#overview .card img {
+#intro .card img {
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 
@@ -128,6 +138,14 @@ footer {
 
 footer .social {
   text-align: right;
+}
+
+.bottom-banner {
+  background-color: #fff;
+  padding: 2em 0 2em 0;
+  -moz-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
 }
 
 #blog {
