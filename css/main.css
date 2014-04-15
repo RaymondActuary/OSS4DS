@@ -19,7 +19,11 @@ a:hover {
 
 #intro h2, #screenshots h2 {
   font-size: 250%;
-  margin: 1em 0;
+  margin: 0 0 0.5em 0;
+}
+
+#intro h3 {
+  margin: 0 0 1em 0;
 }
 
 #intro a, #intro a:hover {
@@ -100,7 +104,7 @@ nav a:hover {
   background-color: #fff;
   margin-top: 3em;
   margin-bottom: 2em;
-  padding: 0 2em 2em 2em;
+  padding: 2em 2.75em;
   -moz-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
   -webkit-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
   box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
@@ -157,20 +161,22 @@ footer .social {
 }
 
 #blog {
-  background-color: #ddd;
-  padding: 30px;
-  margin-top: 4em;
+  background-color: #fff;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  -moz-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  -webkit-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
+  box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
 }
 
 #blog > h2 {
-  margin: 0 0 30px 0;
-  padding: 0;
+  padding: 0.5em;
   font-weight: bold;
   color: #265F92;
 }
 
 .post {
-  padding: 3em;
+  padding: 0.5em 2em 0 2em;
   background-color: white;
   margin-bottom: 3em;
 }
@@ -203,6 +209,10 @@ footer .social {
 
 .post .share {
   text-align: right;
+}
+
+#disqus_thread {
+  padding: 0 1em 0 1em;
 }
 
 .pagination {
