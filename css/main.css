@@ -136,13 +136,18 @@ footer {
   font-size: 85%;
 }
 
+footer .item {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 footer .social {
   text-align: right;
 }
 
 .bottom-banner {
   background-color: #fff;
-  padding: 2em 0 2em 0;
+  padding: 1.5em 0;
   -moz-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
   -webkit-box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
   box-shadow: -6px 6px 10px 2px rgba(0,0,0,0.2);
