@@ -123,6 +123,9 @@ nav a:hover {
   text-align: center;
   color: #fff;
   background-color: #265F92;
+  padding-bottom: 0.25em;
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
 
 #intro .card img {
