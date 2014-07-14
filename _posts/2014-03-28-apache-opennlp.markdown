@@ -3,6 +3,7 @@ layout: post
 title: "OpenNLP"
 author: Charlie Greenbacker
 categories: natural-language-processing
+tags: OpenNLP
 ---
 OpenNLP is a Java toolkit based on machine learning for the processing of natural language text. It was started in 2000 by Jason Baldridge and Gann Bierner while they were graduate students in the Division of Informatics at the University of Edinburgh.
 

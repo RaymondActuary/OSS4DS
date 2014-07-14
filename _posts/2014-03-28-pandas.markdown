@@ -3,6 +3,7 @@ layout: post
 title: "Pandas"
 author: Charlie Greenbacker
 categories: data-mining statistical-analysis
+tags: Panda
 ---
 Pandas is a data analysis library providing high-performance, easy-to-use data structures, and data analysis tools for Python. It was started by Wes McKinney in 2008 while working at AQR Capital Management (a hedge fund).
 

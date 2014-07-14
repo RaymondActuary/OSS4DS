@@ -3,6 +3,7 @@ layout: post
 title: "Apache Mahout"
 author: Charlie Greenbacker
 categories: machine-learning
+tags: Mahout
 ---
 Apache Mahout is a distributed, scalable machine learning library for Hadoop. The project was founded in 2008 by Isabel Drost, Grant Ingersoll, and Karl Wettin. The original goal was to implement all 10 algorithms from Andrew Ng's 2006 paper "Map-Reduce for Machine Learning on Multicore." Mahout started as part of Lucene project, became an ASF top-level project in 2010.
 

@@ -3,6 +3,7 @@ layout: post
 title: "Impala"
 author: Charlie Greenbacker
 categories: data-mining
+tags: Impala
 ---
 Announced by Cloudera in October 2012, Impala is a Massively Parallel Processing (MPP) query engine implemented on Hadoop. It enables users to leave their data in HDFS or HBase and run your ad hoc queries or interactive reports without having to migrate the data into another special BI data warehouse.
 
