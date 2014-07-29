@@ -18,10 +18,10 @@ keywords: data science, open source, big data, analytics, visualization
 
     
 {% for categories in sortedcat %} 
-  <h2 id="{{ categories }}">{{ categories }}</h2><ul>
+  <h3 id="{{ categories }}">{{ categories }}</h3><ul>
   {% for post in site.categories[categories] %}   
              <li>
-           <a href="{{ post.url }}">{{ post.title }}</a>
+           <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
              </li>
 
   {% endfor %} 
