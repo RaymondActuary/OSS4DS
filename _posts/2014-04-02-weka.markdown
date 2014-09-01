@@ -3,6 +3,7 @@ layout: post
 title: "Weka"
 author: Charlie Greenbacker
 categories: machine-learning data-mining
+tags: Weka
 ---
 Weka is a collection of machine learning algorithms for Java created by the [Machine Learning Group at the University of Waikato](http://www.cs.waikato.ac.nz/~ml/). Started in 1993 as a mixture of TCL/TK, C, and Makefiles, Weka was redeveloped from scratch in Java in 1997.
 

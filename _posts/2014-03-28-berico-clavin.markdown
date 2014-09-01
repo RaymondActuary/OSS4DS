@@ -3,6 +3,7 @@ layout: post
 title: "CLAVIN"
 author: Charlie Greenbacker
 categories: natural-language-processing geospatial-analysis
+tags: Clavin
 ---
 CLAVIN (Cartographic Location And Vicinity INdexer) is an open source software package for document geotagging and geoparsing that employs context-based geographic entity resolution. It was created in 2012 by Charlie Greenbacker at Berico Technologies with contributions from Richard Clayton and Travis Pinney.
 
