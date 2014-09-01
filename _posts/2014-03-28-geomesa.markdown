@@ -1,0 +1,22 @@
+---
+layout: post
+title: "GeoMesa"
+author: Ben Howard
+categories: data-mining geospatial-analysis
+---
+GeoMesa is an open-source, distributed, spatio-temporal database built on top of the Apache Accumulo column family store.
+
+[<img style="float: right" width = 25% src="{{ site.url }}/img/geomesa_logo.png" />](http://geomesa.github.io/)
+
+__Creator:__ [LocationTech](http://www.locationtech.org/)
+
+__License:__ [Apache License 2.0](http://opensource.org/licenses/Apache-2.0)
+
+__Website:__ [geomesa.github.io/](http://geomesa.github.io/)
+
+__Source:__ [github.com/geomesa/geomesa.github.io](https://github.com/geomesa/geomesa.github.io)
+
+__Features:__
+
+* Provides an efficient spatio-temporal indexing structure on top of Apache Accumulo. 
+* Provides a geoserver plugin that enables WFS and WMS support. 

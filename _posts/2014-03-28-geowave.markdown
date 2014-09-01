@@ -1,0 +1,24 @@
+---
+layout: post
+title: "GeoWave"
+author: Ben Howard
+categories: data-mining geospatial-analysis
+---
+GeoWave provides a way to make efficient n-dimensional indexing for apache accumulo. Most commonly used for spatio temporal applications. 
+
+[<img style="float: right" width = 25% src="{{ site.url }}/img/geowave_hilbert_earth.png" />](http://ngageoint.github.io/geowave/)
+
+__Creator:__ National Geospatial-Intelligence Agency (NGA) in collaboration with [RadiantBlue Technologies](http://www.radiantblue.com/) and [Booz Allen Hamilton](http://www.boozallen.com/)
+
+__License:__ [Apache License 2.0](http://opensource.org/licenses/Apache-2.0)
+
+__Website:__ [ngageoint.github.io/geowave/](https://ngageoint.github.io/geowave/)
+
+__Source:__ [github.com/ngageoint/geowave](https://github.com/ngageoint/geowave)
+
+__Features:__
+
+* Adds multi-dimensional indexing capability to Apache Accumulo
+* Adds support for geographic objects and geospatial operators to Apache Accumulo
+* Contains a GeoServer plugin to allow geospatial data in Accumulo to be shared and visualized via OGC standard services
+* Provides Map-Reduce input and output formats for distributed processing and analysis of geospatial data 
